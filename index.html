@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Survey Form</title>
 </head>
 <body>
-    <h1>freeCodeCamp Survey Form</h1>
-    <p>Thank you for taking the time to help us improve the platform</p>
+    <h1 class="heading">freeCodeCamp Survey Form</h1>
+    <p class="sub-heading">Thank you for taking the time to help us improve the platform</p>
     <div class="wrapper">
-     <form action="">
+     <form action="#" >
          <div class="form-group">
              <label for="name">Name</label>
              <input type="text" name="name" id="name" class="form-control">
@@ -68,7 +69,9 @@
              <label for="comments">Any comments or suggestions?</label>
              <textarea name="comments" id="" cols="30" rows="10" class="form-control"></textarea>
          </div>
-         <button type="submit">Submit</button>
+        <div class="form-group">
+            <button class="form-control" type="submit">Submit</button>
+        </div>
      </form>   
     </div>
     <script src="./js/index.js"></script>
